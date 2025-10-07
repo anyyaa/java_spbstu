@@ -30,7 +30,8 @@ public class InterfaceDemo {
 
         // вызов переопределённого default метода через объект
         obj.greet();
-
+        
+        // можно вызвать default метод напрямую через интерфейс
         MyInterface ref = obj;
         ref.greet();
     }
