@@ -63,8 +63,6 @@ public class InstanceofExample {
             System.out.println("instanceof Object: " + (obj instanceof Object));
         }
     }
-
-    // безопасное приведение типов
     public static void processAnimal(Animal animal) {
         if (animal instanceof Dog) {
             Dog dog = (Dog) animal;
